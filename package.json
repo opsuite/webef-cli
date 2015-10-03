@@ -11,5 +11,9 @@
   },
   "devDependencies": {
     "glob": "^5.0.15"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/opsuite/webef-cli.git"
+   }
 }
