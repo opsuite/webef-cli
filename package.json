@@ -1,0 +1,15 @@
+{
+  "name": "webef-cli",
+  "version": "0.1.0",
+  "description": "A tool for generating a db context from a webef schema",
+  "main": "index.js",
+  "author": "digital synapse",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "webef": "index.js"
+  },
+  "devDependencies": {
+    "glob": "^5.0.15"
+  }
+}
