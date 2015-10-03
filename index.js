@@ -173,12 +173,12 @@ function gen_task(config){
                 entityContextInterface.push('\t'+column+nullable+': lf.schema.Column;\n');                
             }    
             if (def.indexOf('dbtimestamp')===0){
-                entityInterface.push('\t'+column+nullable+': number;\n'); 
-                entityContextInterface.push('\t'+column+nullable+': lf.schema.Column;\n');                
+                entityInterface.push('\t'+column+nullable+'?: number;\n'); 
+                entityContextInterface.push('\t'+column+nullable+'?: lf.schema.Column;\n');                
             }              
             if (def.indexOf('isdeleted')===0){
-                entityInterface.push('\t'+column+nullable+': boolean;\n'); 
-                entityContextInterface.push('\t'+column+nullable+': lf.schema.Column;\n');                
+                entityInterface.push('\t'+column+nullable+'?: boolean;\n'); 
+                entityContextInterface.push('\t'+column+nullable+'?: lf.schema.Column;\n');                
             }              
                   
         }
