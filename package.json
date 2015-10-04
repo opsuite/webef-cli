@@ -1,6 +1,6 @@
 {
   "name": "webef-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A tool for generating a db context from a webef schema",
   "main": "index.js",
   "author": "digital synapse",
