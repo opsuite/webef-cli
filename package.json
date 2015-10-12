@@ -5,7 +5,7 @@
   "main": "index.js",
   "author": "digital synapse",
   "license": "MIT",
-  "preferGlobal": true,
+  "preferGlobal": false,
   "bin": {
     "webef": "index.js"
   },
