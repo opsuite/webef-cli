@@ -5,12 +5,14 @@
   "main": "index.js",
   "author": "digital synapse",
   "license": "MIT",
-  "preferGlobal": false,
+  "preferGlobal": true,
   "bin": {
     "webef": "index.js"
   },
   "devDependencies": {
     "glob": "^5.0.15"
+  },
+  "scripts": {
   },
   "repository": {
     "type": "git",

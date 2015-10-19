@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var glob = require("glob")
 
 console.log("\nwebef-cli v.1.0\n");
